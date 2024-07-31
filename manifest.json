@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Custom notification",
+  "description": "Create custom notification for web sites, which don't support notification.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "favicon.png"
+  }
+}
