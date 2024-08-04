@@ -10,7 +10,9 @@
   "content_scripts": [
     {
       "js": ["src/index.js"],
-      "matches": ["<all_urls>"]
+      "matches": ["<all_urls>", "file:///"]
     }
-  ]
+  ],
+  "host_permissions": ["*://*/*"],
+  "permissions": ["notifications"]
 }

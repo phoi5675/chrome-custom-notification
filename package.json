@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/phoi5675/chrome-custom-notification#readme",
   "devDependencies": {
-    "chrome-types": "^0.1.297",
+    "@types/chrome": "^0.0.269",
     "globals": "^15.8.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
